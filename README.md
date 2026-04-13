@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio
+
+> 한국어 소개는 [아래](#korean)를 참고하세요.
+
+Personal portfolio site for Seong-yeon Kim —  
+a developer working across **Game**, **AI/ML**, and **Front-end**,  
+building everything from VR experiences to explainable AI systems.
+
+🔗 **[Live Site](https://portfolio-lalunrus-projects.vercel.app)**
+
+---
+
+## Tech Stack
+
+| | |
+|---|---|
+| Framework | Next.js 14 (App Router) |
+| Animation | Framer Motion |
+| Styling | Tailwind CSS |
+| Deployment | Vercel |
+| Language | TypeScript |
+
+---
+
+## Features
+
+**Space-themed UI**
+Dark space background with canvas-based twinkling star field, floating UFO animation, and an Earth-like planet rendered in pure CSS.
+
+**Scroll Animations**
+Section elements fade and slide into view on scroll using Framer Motion's `whileInView` with stagger effects.
+
+**Project Cards**
+Alternating left/right layout with period, team size, tech tags, and GitHub links — inspired by timeline-style portfolio designs.
+
+**Marquee Skills Banner**
+Infinite scrolling skill strip between Hero and content sections.
+
+**MDX Project Detail Pages**
+Each project links to a dedicated detail page rendered from MDX with static generation (`generateStaticParams`).
+
+---
+
+## Projects Featured
+
+| Project | Stack | Type |
+|---|---|---|
+| Line 0 — VR Horror Adventure | Unity, C#, GLSL, URP | Team |
+| Beyond the Door of Memory — 2D Adventure | Unity, C# | Team |
+| NPR Shaders | GLSL, Unity URP | Solo |
+| XAI Network Intrusion Detection | Python, XGBoost, SHAP, LIME | Solo (Thesis) |
+| Malicious URL Classification | Python, TensorFlow, LSTM | Solo |
+| AssetMind — Finance Web Service | Tailwind, Storybook, Figma | Team |
+| Smart Plant Monitor | Python, Raspberry Pi, C | Team |
+
+---
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+git clone https://github.com/lalunru/portfolio.git
+cd portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## License
 
-## Learn More
+This project is open source and available under the [MIT License](LICENSE).
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<a name="korean"></a>
+## 한국어 요약
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Game · AI · Front-end를 넘나드는 개발자 김성연의 개인 포트폴리오 사이트입니다.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**핵심 구현**
+- Canvas 기반 별 반짝임 애니메이션 + CSS만으로 구현한 지구 오브젝트
+- Framer Motion `whileInView` stagger 애니메이션
+- MDX 기반 프로젝트 상세 페이지 정적 생성
+- 무한 스크롤 기술 스택 배너 (Marquee)
+- 좌우 번갈아 등장하는 프로젝트 카드 레이아웃
