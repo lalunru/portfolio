@@ -228,6 +228,7 @@ export default function Home() {
                   {[
                     { label: "GitHub", href: "https://github.com/lalunru" },
                     { label: "Email", href: "mailto:aa40272446@gmail.com" },
+                    { label: "Notion", href: "https://www.notion.so/Portfolio-3438ecea43ae80889a92e30374f47f76?source=copy_link" },
                   ].map((l) => (
                     <a key={l.label} href={l.href} target="_blank" rel="noopener noreferrer"
                       style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "10px 14px", background: "#0a1a0f", borderRadius: "8px", color: "#aaa", textDecoration: "none", fontSize: "14px" }}
