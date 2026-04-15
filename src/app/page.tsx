@@ -17,6 +17,27 @@ Agile/Scrum 방식으로 스프린트를 운영하고, GitHub Issue와 PR에 P0/
 Vercel을 활용한 CI/CD 파이프라인으로 PR마다 프리뷰 배포 환경을 구성했습니다.
 6월 완료를 목표로 현재 개발 진행 중입니다.`,
   },
+  
+  {
+    slug: "xai-ids", title: "XAI 기반 네트워크 침입 탐지 시스템", tags: ["Python", "XGBoost", "SHAP", "LIME", "XAI"],
+    github: "https://github.com/lalunru/XAI-Network-Intrusion-Detection-System", period: "2025", team: "개인 프로젝트 (졸업논문)", label: "AI / XAI", align: "right" as const,
+    notion: "https://www.notion.so/3438ecea43ae803cb6f3c5148f6e137d",
+    description: `UNSW-NB15 데이터셋을 활용한 XGBoost 기반 네트워크 침입 탐지 시스템 졸업논문 프로젝트입니다.
+XGBoost 모델로 F1-Score 0.95, ROC-AUC 0.97을 달성하여 높은 탐지 정확도를 확보했습니다.
+SHAP으로 모델의 전역적 특성 중요도를 시각화했습니다.
+LIME으로 개별 예측에 대한 근거를 설명했습니다.
+단순 성능 지표를 넘어 모델의 판단 근거를 해석 가능하게 만드는 XAI 연구에 집중했습니다.`,
+  },
+  {
+    slug: "malicious-url", title: "악성 URL 분류 딥러닝 모델", tags: ["Python", "TensorFlow", "Keras", "LSTM", "DL"],
+    github: "https://github.com/lalunru/Malicious-URL-Classification", period: "2025", team: "개인 프로젝트", label: "딥러닝", align: "left" as const,
+    notion: "https://www.notion.so/3438ecea43ae803ea9fcef2ba3efd86d",
+    description: `URL 문자열 패턴과 수작업 특성을 결합한 멀티 인풋 딥러닝 분류 모델입니다.
+LSTM으로 URL 문자 시퀀스의 패턴을 학습하고, 9개의 수작업 특성과 결합한 멀티 인풋 신경망을 설계했습니다.
+Benign, Phishing, Malware, Defacement 4개 클래스 분류에서 전체 정확도 92%를 달성했습니다.
+특히 Defacement 클래스에서 F1-Score 0.99를 기록하여 높은 탐지 성능을 확인했습니다.
+TensorFlow/Keras 기반으로 모델 구조 설계부터 학습, 평가까지 전 과정을 단독 수행했습니다.`,
+  },
   {
     slug: "line-0", title: "Line 0 — VR 공포 어드벤처", tags: ["Unity", "C#", "VR", "GLSL", "URP"],
     github: "https://github.com/lalunru/unity-vr-game-project", period: "2025", team: "팀 프로젝트", label: "VR 게임 개발", align: "left" as const,
@@ -46,26 +67,6 @@ Cross-Hatching 셰이더로 펜 드로잉 느낌의 렌더링을 구현하고, S
 Toon Shading + Rim Light 조합으로 애니메이션풍 캐릭터 렌더링 파이프라인을 구성했습니다.
 Shadertoy에서 구현한 GLSL 코드를 Unity URP ShaderGraph로 이식하는 가이드를 문서화했습니다.
 셰이더 최적화(GPU Instancing, SRP Batcher 호환)를 통해 실시간 렌더링 성능을 확보했습니다.`,
-  },
-  {
-    slug: "xai-ids", title: "XAI 기반 네트워크 침입 탐지 시스템", tags: ["Python", "XGBoost", "SHAP", "LIME", "XAI"],
-    github: "https://github.com/lalunru/XAI-Network-Intrusion-Detection-System", period: "2025", team: "개인 프로젝트 (졸업논문)", label: "AI / XAI", align: "right" as const,
-    notion: "https://www.notion.so/3438ecea43ae803cb6f3c5148f6e137d",
-    description: `UNSW-NB15 데이터셋을 활용한 XGBoost 기반 네트워크 침입 탐지 시스템 졸업논문 프로젝트입니다.
-XGBoost 모델로 F1-Score 0.95, ROC-AUC 0.97을 달성하여 높은 탐지 정확도를 확보했습니다.
-SHAP으로 모델의 전역적 특성 중요도를 시각화했습니다.
-LIME으로 개별 예측에 대한 근거를 설명했습니다.
-단순 성능 지표를 넘어 모델의 판단 근거를 해석 가능하게 만드는 XAI 연구에 집중했습니다.`,
-  },
-  {
-    slug: "malicious-url", title: "악성 URL 분류 딥러닝 모델", tags: ["Python", "TensorFlow", "Keras", "LSTM", "DL"],
-    github: "https://github.com/lalunru/Malicious-URL-Classification", period: "2025", team: "개인 프로젝트", label: "딥러닝", align: "left" as const,
-    notion: "https://www.notion.so/3438ecea43ae803ea9fcef2ba3efd86d",
-    description: `URL 문자열 패턴과 수작업 특성을 결합한 멀티 인풋 딥러닝 분류 모델입니다.
-LSTM으로 URL 문자 시퀀스의 패턴을 학습하고, 9개의 수작업 특성과 결합한 멀티 인풋 신경망을 설계했습니다.
-Benign, Phishing, Malware, Defacement 4개 클래스 분류에서 전체 정확도 92%를 달성했습니다.
-특히 Defacement 클래스에서 F1-Score 0.99를 기록하여 높은 탐지 성능을 확인했습니다.
-TensorFlow/Keras 기반으로 모델 구조 설계부터 학습, 평가까지 전 과정을 단독 수행했습니다.`,
   },
   {
     slug: "plant-monitor", title: "반려식물 스마트 모니터링 시스템", tags: ["Python", "Raspberry Pi", "IoT", "Embedded", "C"],
