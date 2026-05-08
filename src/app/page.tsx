@@ -10,7 +10,7 @@ const projects = [
   {
     slug: "asset-mind", title: "AssetMind — 금융자산관리 웹 서비스", tags: ["Tailwind", "Storybook", "Figma", "Vercel", "Agile"],
     github: "https://github.com/ASSETMIND/AssetMind", period: "2026.01 ~ 진행 중", team: "4인 팀 프로젝트", label: "웹 프론트엔드", align: "right" as const,
-    notion: "https://www.notion.so/AssetMind-3438ecea43ae808aa2dafb110b6af593?source=copy_link",
+    notion: "https://lalunru.tistory.com/entry/asset-mind",
     description: `Figma 디자인부터 Tailwind CSS 구현까지 UI 개발을 전담한 금융자산관리 웹 서비스입니다.
 Storybook으로 컴포넌트를 독립적으로 문서화하여 팀 내 재사용성과 개발 효율을 높였습니다.
 Agile/Scrum 방식으로 스프린트를 운영하고, GitHub Issue와 PR에 P0/P1 우선순위 태깅을 도입했습니다.
@@ -19,29 +19,9 @@ Vercel을 활용한 CI/CD 파이프라인으로 PR마다 프리뷰 배포 환경
   },
   
   {
-    slug: "xai-ids", title: "XAI 기반 네트워크 침입 탐지 시스템", tags: ["Python", "XGBoost", "SHAP", "LIME", "XAI"],
-    github: "https://github.com/lalunru/XAI-Network-Intrusion-Detection-System", period: "2025", team: "개인 프로젝트 (졸업논문)", label: "AI / XAI", align: "left" as const,
-    notion: "https://www.notion.so/3438ecea43ae803cb6f3c5148f6e137d",
-    description: `UNSW-NB15 데이터셋을 활용한 XGBoost 기반 네트워크 침입 탐지 시스템 졸업논문 프로젝트입니다.
-XGBoost 모델로 F1-Score 0.95, ROC-AUC 0.97을 달성하여 높은 탐지 정확도를 확보했습니다.
-SHAP으로 모델의 전역적 특성 중요도를 시각화했습니다.
-LIME으로 개별 예측에 대한 근거를 설명했습니다.
-단순 성능 지표를 넘어 모델의 판단 근거를 해석 가능하게 만드는 XAI 연구에 집중했습니다.`,
-  },
-  {
-    slug: "malicious-url", title: "악성 URL 분류 딥러닝 모델", tags: ["Python", "TensorFlow", "Keras", "LSTM", "DL"],
-    github: "https://github.com/lalunru/Malicious-URL-Classification", period: "2025", team: "개인 프로젝트", label: "딥러닝", align: "right" as const,
-    notion: "https://www.notion.so/3438ecea43ae803ea9fcef2ba3efd86d",
-    description: `URL 문자열 패턴과 수작업 특성을 결합한 멀티 인풋 딥러닝 분류 모델입니다.
-LSTM으로 URL 문자 시퀀스의 패턴을 학습하고, 9개의 수작업 특성과 결합한 멀티 인풋 신경망을 설계했습니다.
-Benign, Phishing, Malware, Defacement 4개 클래스 분류에서 전체 정확도 92%를 달성했습니다.
-특히 Defacement 클래스에서 F1-Score 0.99를 기록하여 높은 탐지 성능을 확인했습니다.
-TensorFlow/Keras 기반으로 모델 구조 설계부터 학습, 평가까지 전 과정을 단독 수행했습니다.`,
-  },
-  {
     slug: "line-0", title: "Line 0 — VR 공포 어드벤처", tags: ["Unity", "C#", "VR", "GLSL", "URP"],
     github: "https://github.com/lalunru/unity-vr-game-project", period: "2025", team: "팀 프로젝트", label: "VR 게임 개발", align: "left" as const,
-    notion: "https://www.notion.so/Line-0-3438ecea43ae8076a36fde839ab277cb",
+    notion: "https://lalunru.tistory.com/entry/Project-Line-0",
     description: `Meta Quest 2 환경에서 구동되는 1인칭 VR 공포 어드벤처 게임입니다.
 팀 내 텍스처 제작 및 셰이더 머티리얼 전담으로, URP 파이프라인에 맞는 커스텀 머티리얼을 설계했습니다.
 VR 멀미 최적화를 위해 실시간 조명을 Baked 라이트맵으로 전환하여 GPU 부하를 절감했습니다.
@@ -51,7 +31,7 @@ XR Interaction Toolkit을 활용한 VR 인터랙션 설계 및 Quest 2 타겟 72
   {
     slug: "memory-door", title: "기억의 문 너머 — 2D 감성 어드벤처", tags: ["Unity", "C#", "2D", "Game"],
     github: "https://github.com/lalunru/unity-2d-adventure-memory", period: "2025", team: "팀 프로젝트", label: "2D 게임 개발", align: "right" as const,
-    notion: "https://www.notion.so/Beyond-the-Door-of-Memory-3438ecea43ae803681e5fc3cf59a7204",
+    notion: "https://lalunru.tistory.com/entry/Beyond-the-Door-of-Memory",
     description: `PC 환경의 Unity 2D 기반 감성 어드벤처 게임으로, 주인공 캐릭터 스프라이트를 직접 드로잉했습니다.
 플레이어의 선택지 상태값을 기반으로 한 다중 엔딩 분기 시스템을 설계 및 구현했습니다.
 AI 추적 몬스터의 경로 탐색 알고리즘을 구현하여 긴장감 있는 추격 시퀀스를 제작했습니다.
@@ -61,7 +41,7 @@ AI 추적 몬스터의 경로 탐색 알고리즘을 구현하여 긴장감 있�
   {
     slug: "npr-shaders", title: "NPR Shaders — 비사실적 렌더링 셰이더", tags: ["GLSL", "Unity", "Shader", "URP"],
     github: "https://github.com/lalunru/npr-shaders", period: "2026", team: "개인 프로젝트", label: "셰이더 개발", align: "left" as const,
-    notion: "https://www.notion.so/3438ecea43ae801486f4cc2b073b6414",
+    notion: "https://lalunru.tistory.com/entry/npr-shaders",
     description: `GLSL 및 Unity URP 환경에서 비사실적 렌더링(NPR) 셰이더를 직접 구현한 개인 프로젝트입니다.
 Cross-Hatching 셰이더로 펜 드로잉 느낌의 렌더링을 구현하고, Shadertoy에 라이브 데모를 공개했습니다.
 Toon Shading + Rim Light 조합으로 애니메이션풍 캐릭터 렌더링 파이프라인을 구성했습니다.
@@ -69,14 +49,24 @@ Shadertoy에서 구현한 GLSL 코드를 Unity URP ShaderGraph로 이식하는 �
 셰이더 최적화(GPU Instancing, SRP Batcher 호환)를 통해 실시간 렌더링 성능을 확보했습니다.`,
   },
   {
-    slug: "plant-monitor", title: "반려식물 스마트 모니터링 시스템", tags: ["Python", "Raspberry Pi", "IoT", "Embedded", "C"],
-    github: "https://github.com/lalunru/smart-plant-monitor", period: "2025", team: "팀 프로젝트", label: "임베디드", align: "right" as const,
-    notion: "https://www.notion.so/Smart-Monitor-for-Companion-Plants-3438ecea43ae80eeb42fc632bd2436a1",
-    description: `Raspberry Pi 기반으로 온습도 센서와 카메라 모듈을 통합한 반려식물 모니터링 시스템입니다.
-온습도 센서 데이터의 노이즈 필터링 알고리즘을 구현하여 측정값의 안정성을 확보했습니다.
-카메라 모듈과 센서의 동시 구동 시 발생하는 타이밍 충돌 문제를 분석하고 최적화했습니다.
-Python과 C를 혼용하여 하드웨어 제어 레이어와 데이터 처리 레이어를 분리 설계했습니다.
-실시간 데이터 수집 및 임계값 기반 알림 시스템으로 식물 관리 자동화를 구현했습니다.`,
+    slug: "xai-ids", title: "XAI 기반 네트워크 침입 탐지 시스템", tags: ["Python", "XGBoost", "SHAP", "LIME", "XAI"],
+    github: "https://github.com/lalunru/XAI-Network-Intrusion-Detection-System", period: "2025", team: "개인 프로젝트 (졸업논문)", label: "AI / XAI", align: "right" as const,
+    notion: "https://lalunru.tistory.com/entry/xai-ids",
+    description: `UNSW-NB15 데이터셋을 활용한 XGBoost 기반 네트워크 침입 탐지 시스템 졸업논문 프로젝트입니다.
+XGBoost 모델로 F1-Score 0.95, ROC-AUC 0.97을 달성하여 높은 탐지 정확도를 확보했습니다.
+SHAP으로 모델의 전역적 특성 중요도를 시각화했습니다.
+LIME으로 개별 예측에 대한 근거를 설명했습니다.
+단순 성능 지표를 넘어 모델의 판단 근거를 해석 가능하게 만드는 XAI 연구에 집중했습니다.`,
+  },
+  {
+    slug: "malicious-url", title: "악성 URL 분류 딥러닝 모델", tags: ["Python", "TensorFlow", "Keras", "LSTM", "DL"],
+    github: "https://github.com/lalunru/Malicious-URL-Classification", period: "2025", team: "개인 프로젝트", label: "딥러닝", align: "left" as const,
+    notion: "https://lalunru.tistory.com/entry/lstm-malicious-url",
+    description: `URL 문자열 패턴과 수작업 특성을 결합한 멀티 인풋 딥러닝 분류 모델입니다.
+LSTM으로 URL 문자 시퀀스의 패턴을 학습하고, 9개의 수작업 특성과 결합한 멀티 인풋 신경망을 설계했습니다.
+Benign, Phishing, Malware, Defacement 4개 클래스 분류에서 전체 정확도 92%를 달성했습니다.
+특히 Defacement 클래스에서 F1-Score 0.99를 기록하여 높은 탐지 성능을 확인했습니다.
+TensorFlow/Keras 기반으로 모델 구조 설계부터 학습, 평가까지 전 과정을 단독 수행했습니다.`,
   },
 ];
 
@@ -228,7 +218,7 @@ export default function Home() {
                   {[
                     { label: "GitHub", href: "https://github.com/lalunru" },
                     { label: "Email", href: "mailto:aa40272446@gmail.com" },
-                    { label: "Notion", href: "https://www.notion.so/Portfolio-3438ecea43ae80889a92e30374f47f76?source=copy_link" },
+                    { label: "Blog", href: "https://lalunru.tistory.com" },
                   ].map((l) => (
                     <a key={l.label} href={l.href} target="_blank" rel="noopener noreferrer"
                       style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "10px 14px", background: "#0a1a0f", borderRadius: "8px", color: "#aaa", textDecoration: "none", fontSize: "14px" }}
