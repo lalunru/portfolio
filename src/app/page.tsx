@@ -42,11 +42,10 @@ AI 추적 몬스터의 경로 탐색 알고리즘을 구현하여 긴장감 있�
     slug: "npr-shaders", title: "NPR Shaders — 비사실적 렌더링 셰이더", tags: ["GLSL", "Unity", "Shader", "URP"],
     github: "https://github.com/lalunru/npr-shaders", period: "2026", team: "개인 프로젝트", label: "셰이더 개발", align: "left" as const,
     notion: "https://lalunru.tistory.com/entry/npr-shaders",
-    description: `GLSL 및 Unity URP 환경에서 비사실적 렌더링(NPR) 셰이더를 직접 구현한 개인 프로젝트입니다.
-Cross-Hatching 셰이더로 펜 드로잉 느낌의 렌더링을 구현하고, Shadertoy에 라이브 데모를 공개했습니다.
-Toon Shading + Rim Light 조합으로 애니메이션풍 캐릭터 렌더링 파이프라인을 구성했습니다.
-Shadertoy에서 구현한 GLSL 코드를 Unity URP ShaderGraph로 이식하는 가이드를 문서화했습니다.
-셰이더 최적화(GPU Instancing, SRP Batcher 호환)를 통해 실시간 렌더링 성능을 확보했습니다.`,
+    description: `GLSL 및 Unity URP 환경에서 비사실적 렌더링(NPR) 셰이더를 직접 연구하고 구현하는 개인 프로젝트입니다.
+공간 접기 변환, 레이마칭, 엣지 검출 등 다양한 실시간 렌더링 기법을 탐구하며,
+Shadertoy에 라이브 데모를 지속적으로 공개하고 있습니다.
+구현한 GLSL 코드의 Unity URP 이식 가이드를 함께 문서화합니다.`,
   },
   {
     slug: "xai-ids", title: "XAI 기반 네트워크 침입 탐지 시스템", tags: ["Python", "XGBoost", "SHAP", "LIME", "XAI"],
