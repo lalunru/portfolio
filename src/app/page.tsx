@@ -8,16 +8,20 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projects = [
   {
-    slug: "asset-mind", title: "AssetMind — 금융자산관리 웹 서비스", tags: ["Tailwind", "Storybook", "Figma", "Vercel", "Agile"],
-    github: "https://github.com/ASSETMIND/AssetMind", period: "2026.01 ~ 진행 중", team: "4인 팀 프로젝트", label: "웹 프론트엔드", align: "right" as const,
+    slug: "asset-mind",
+    title: "AssetMind — 금융자산관리 웹 서비스",
+    tags: ["React", "TypeScript", "Tailwind", "Storybook", "WebSocket"],
+    github: "https://github.com/ASSETMIND/AssetMind",
+    period: "2026.01 ~ 진행 중",
+    team: "4인 팀 프로젝트",
+    label: "웹 프론트엔드",
+    align: "right" as const,
     notion: "https://lalunru.tistory.com/entry/asset-mind",
-    description: `Figma 디자인부터 Tailwind CSS 구현까지 UI 개발을 전담한 금융자산관리 웹 서비스입니다.
-Storybook으로 컴포넌트를 독립적으로 문서화하여 팀 내 재사용성과 개발 효율을 높였습니다.
-Agile/Scrum 방식으로 스프린트를 운영하고, GitHub Issue와 PR에 P0/P1 우선순위 태깅을 도입했습니다.
-Vercel을 활용한 CI/CD 파이프라인으로 PR마다 프리뷰 배포 환경을 구성했습니다.
-6월 완료를 목표로 현재 개발 진행 중입니다.`,
-  },
-  
+    description: `Figma 시안 구현부터 디자인 시스템 구축, 실서비스 API 연동까지 UI/UX 개발을 전담한 금융자산관리 웹 서비스입니다.
+Tailwind Config·Storybook 자동 매핑 시스템을 개발하여 컬러 팔레트와 타이포그래피 토큰을 시각적으로 동기화했습니다.
+WebSocket(STOMP) + React Query 이중 구독 구조로 실시간 주가·호가창 데이터를 안정적으로 처리했습니다.
+팀원 이탈 상황에서 UX 역할을 인수하여 UI 모듈 조립부터 API 연동, UX 안정성 개선까지 프론트엔드 전 영역을 담당하고 있습니다.`,
+  },  
   {
     slug: "line-0", title: "Line 0 — VR 공포 어드벤처", tags: ["Unity", "C#", "VR", "GLSL", "URP"],
     github: "https://github.com/lalunru/unity-vr-game-project", period: "2025", team: "팀 프로젝트", label: "VR 게임 개발", align: "left" as const,
